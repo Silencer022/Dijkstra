@@ -54,7 +54,7 @@ class MinHeap():
         return min_elem
 
     def update(self, item , new_value):
-        #O(n) n being the bumber of elements in the heap
+        #O(n) n being the number of elements in the heap
         item_index = None
         for index in range(1,self.length+1):
             if item == self.array[index][1]:
